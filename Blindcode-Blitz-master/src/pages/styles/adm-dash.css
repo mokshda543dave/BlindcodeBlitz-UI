@@ -1,0 +1,13 @@
+/* // release v1.0 commit */
+.adm-container {
+  background-color: #83838338;
+  backdrop-filter: blur(8px);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  top: 12vh;
+  position: absolute;
+  min-height: 80vh;
+  max-height: 80vh;
+  min-width: 100vw;
+}

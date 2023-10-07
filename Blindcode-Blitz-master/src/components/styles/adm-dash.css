@@ -1,0 +1,47 @@
+/* release v1.0 commit */
+.userInfo {
+  display: inline-flex;
+  background-color: rgb(235, 235, 40);
+  justify-content: space-evenly;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.inf {
+  display: block;
+  background-color: #ffffffcc;
+  text-align: center;
+  min-width: 30vw;
+  padding: 5px 12px;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 600;
+  color: #000;
+  margin-inline: 4px;
+}
+
+.solContainer {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.jodits {
+  display: block;
+  overflow: scroll;
+  max-width: 30vw;
+  min-width: 20vw;
+  max-height: 60vh;
+  margin-inline: 0.5vw;
+  border-radius: 8px;
+}
+
+.card-head {
+  display: block;
+  position: relative;
+  background-color: rgba(255, 51, 0, 0.488);
+  padding: 5px 10px;
+  min-width: 100%;
+  color: #fff;
+  margin-bottom: 3px;
+  text-align: center;
+}

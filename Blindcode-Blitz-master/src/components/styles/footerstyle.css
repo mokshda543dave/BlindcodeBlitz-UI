@@ -1,0 +1,16 @@
+/* release v1.0 commit */
+.footer {
+  max-height: 8vh;
+  min-height: 8vh;
+  background-color: black;
+  background: black;
+  opacity: 0.85;
+  padding-left: 10px;
+  padding-right: 10px;
+  bottom: 0;
+}
+
+.footer-logo {
+  max-height: 6.5vh;
+  min-height: 6.5vh;
+}

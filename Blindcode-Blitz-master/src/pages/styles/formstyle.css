@@ -1,0 +1,51 @@
+/* // release v1.0 commit */
+@import url("https://fonts.googleapis.com/css2?family=Foldit&family=Orbitron&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+.basediv {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.formcard {
+  display: block;
+  min-width: 18vw;
+  max-width: 23vw;
+  text-align: center;
+}
+
+.forminput {
+  background: #00000097;
+  color: #ede53e;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  display: block;
+  margin: 10px;
+  padding: 6px 15px;
+  min-height: 50px;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 1px;
+}
+
+::placeholder {
+  color: #ede53e;
+}
+
+.formbtn {
+  background: #db6a0d;
+  border: 5px solid #581b01;
+  color: #581b01;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.formbtn:hover {
+  background: #0a0a0a;
+  color: #c8bdbd;
+  border-color: black;
+  transition: 0.6s linear;
+}

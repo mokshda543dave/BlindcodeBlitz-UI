@@ -1,0 +1,8 @@
+/* release v1.0 commit */
+.base {
+  min-height: 100vh;
+  max-height: 100vh;
+  background-image: url(../../media/27Z_2105.w023.n001.493B.p1.493.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

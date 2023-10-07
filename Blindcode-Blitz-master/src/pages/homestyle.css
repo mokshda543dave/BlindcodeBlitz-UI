@@ -1,0 +1,179 @@
+/* // release v1.0 commit */
+
+@import url("https://fonts.googleapis.com/css2?family=Foldit&family=Orbitron&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Foldit&family=Orbitron&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Ubuntu&display=swap");
+
+/* Header styles */
+header {
+  background-color: #100c14;
+  /* background-image: url(../media/empty-dark-room-modern-futuristic-sci-fi-background.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+  padding: 50px 0;
+  padding-top: 15vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.txt-i {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #e50707, 0 0 19px #fff,
+      0 0 40px rgb(255, 68, 0), 0 0 80px rgb(255, 55, 0),
+      0 0 90px rgb(255, 72, 0), 0 0 70px rgb(255, 38, 0),
+      0 0 90px rgb(255, 0, 0);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.blitz-txt {
+  display: block;
+  font-size: 56px;
+  letter-spacing: 5px;
+  color: #8400ff90;
+  justify-self: center;
+  color: #fff;
+  text-shadow: 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff, 0 0 30px #6e3bb0,
+    0 0 60px #6e3bb0, 0 0 82px #6e3bb0, 0 0 90px #6e3bb0, 0 0 100px #6e3bb0;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hx {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 800;
+  margin-top: 0.5vh;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 3px;
+  align-self: center;
+  text-shadow: 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff, 0 0 30px #ede53e,
+    0 0 0 #ede53e, 0 0 10px #ede53e, 0 0 0px #ede53e, 0 0 12px #ede53e;
+}
+
+.hxs {
+  font-size: 10px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* About the Competition section */
+.about-section {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Introduction text styles */
+.intro {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  backdrop-filter: blur(8px);
+  background-color: #504a4a2e;
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 7px;
+  letter-spacing: 1.6px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Call-to-action button styles */
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #6e3bb0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-family: "Orbitron";
+}
+
+.button:hover {
+  background-color: #007bff;
+}
+
+/* Main content styles */
+.containerz {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Body text styles */
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #444;
+}
+
+/* Highlight section */
+.highlight-section {
+  background-color: #f9f9f9;
+  padding: 30px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.highlight-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
